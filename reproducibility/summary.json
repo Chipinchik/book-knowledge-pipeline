@@ -1,0 +1,59 @@
+{
+  "experiment_id": "exp-20261122T090132972643Z-473911",
+  "raw_sha256": "0119c8302cdc351a86bb323e37c5bb3906f366fb0a5b41bd6c4ae932478d4e9f",
+  "raw_records": 15,
+  "model": "gemini-3.1-flash-lite",
+  "notice": "Derived numeric and categorical data only; source descriptions, annotations, HTML and model responses deliberately excluded. No measured accuracy without verified labels.",
+  "methods": {
+    "rules": {
+      "normalized_records": 15,
+      "gemini_processed": 0,
+      "accepted_new_responses": 0,
+      "cache_hits": 0,
+      "http_requests": 0,
+      "token_usage": {},
+      "limit_pauses": 0,
+      "api_errors": 0,
+      "validation_errors": 0,
+      "processing_errors": 0,
+      "llm_fallbacks": 0,
+      "duration_seconds": 0.030263900000136346,
+      "topic_counts": {
+        "Другое": 7,
+        "Искусство": 5,
+        "Детектив": 1,
+        "История": 1,
+        "Бизнес": 1
+      },
+      "run_id": "20261122T090140636739Z-2ca2bf",
+      "result_sha256": "0608650d2977d9a212a9806fff47a55b40631d0b7de5e2f9ceafa28efa6ee66c"
+    },
+    "gemini": {
+      "normalized_records": 15,
+      "gemini_processed": 15,
+      "accepted_new_responses": 13,
+      "cache_hits": 2,
+      "http_requests": 13,
+      "token_usage": {
+        "completion_tokens": 1445,
+        "prompt_tokens": 9033,
+        "total_tokens": 10478
+      },
+      "limit_pauses": 5,
+      "api_errors": 0,
+      "validation_errors": 0,
+      "processing_errors": 0,
+      "llm_fallbacks": 0,
+      "duration_seconds": 74.13920029999281,
+      "topic_counts": {
+        "Другое": 6,
+        "История": 4,
+        "Детектив": 2,
+        "Искусство": 2,
+        "Бизнес": 1
+      },
+      "run_id": "20261122T090200004373Z-ac7fbb",
+      "result_sha256": "2baeffefd86f6ffe666e83b174ce2edd73a8245351ac23765df67c8cc6d394cd"
+    }
+  }
+}
